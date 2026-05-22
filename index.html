@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wilhelmus Ervando Walangare — Portfolio</title>
+  <meta name="description" content="Futuristic portfolio of Wilhelmus Ervando Walangare — Programmer, Network Engineer, Cloud Specialist based in Batam, Indonesia." />
+  <meta name="keywords" content="Wilhelmus Ervando, portfolio, programmer, network engineer, cloud, Batam" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Particle Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">W.E.W</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/hero_background.png" alt="futuristic background" />
+    </div>
+    <div class="hero-content">
+      <img src="assets/profile_avatar.png" alt="Wilhelmus Ervando" class="hero-avatar" />
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Wilhelmus <span class="highlight">Ervando</span> Walangare</h1>
+      <p class="hero-tagline">
+        Programmer &amp; Cloud Engineer with strong problem-solving skills, MTCNA &amp; HCIA certified, passionate about building clean and efficient solutions.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#contact" class="btn-primary">Get In Touch</a>
+        <a href="#experience" class="btn-outline">View Experience</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">A brief introduction</p>
+          <p>
+            I'm a dedicated programmer based in <strong>Batam, Indonesia</strong>, currently pursuing a Bachelor's degree in Information Technology at Universitas Internasional Batam. I combine strong problem-solving abilities with critical thinking to deliver effective solutions.
+          </p>
+          <p>
+            With certifications in <strong>MikroTik Network Engineering (MTCNA)</strong> and <strong>Huawei Cloud Service (HCIA)</strong>, I bridge the gap between software development and infrastructure. I'm proficient in multiple programming languages and excel at team collaboration.
+          </p>
+          <p>
+            Beyond academics, I serve as the <strong>Chairman of the Japanese Club</strong> and am actively involved in the Information Technology Student Association, demonstrating my leadership and organizational skills.
+          </p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-number">3.81</div>
+              <div class="stat-label">GPA</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">965</div>
+              <div class="stat-label">TOEIC Score</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">2+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">3</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual reveal">
+          <div class="about-orb">
+            <div class="orb-content">
+              <div class="orb-icon">⚡</div>
+              <div class="orb-text">Building the Future</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Skills &amp; Expertise</h2>
+      <p class="section-subtitle reveal">Technologies I work with</p>
+
+      <div class="skills-grid">
+        <!-- Programming -->
+        <div class="skill-card reveal">
+          <span class="skill-icon">💻</span>
+          <h3>Programming</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Laravel</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Networking -->
+        <div class="skill-card reveal">
+          <span class="skill-icon">🌐</span>
+          <h3>Networking</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MikroTik</span>
+            <span class="skill-tag">Router Config</span>
+            <span class="skill-tag">Network Design</span>
+            <span class="skill-tag">Firewall</span>
+            <span class="skill-tag">VLAN</span>
+          </div>
+        </div>
+
+        <!-- Cloud -->
+        <div class="skill-card reveal">
+          <span class="skill-icon">☁️</span>
+          <h3>Cloud Services</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Huawei Cloud</span>
+            <span class="skill-tag">Cloud Management</span>
+            <span class="skill-tag">IT Consulting</span>
+            <span class="skill-tag">Environment Setup</span>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-card reveal">
+          <span class="skill-icon">🤝</span>
+          <h3>Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Team Collaboration</span>
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Critical Thinking</span>
+            <span class="skill-tag">Leadership</span>
+            <span class="skill-tag">English Fluency</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <h2 class="section-title reveal" style="margin-top: 70px;">Certifications</h2>
+      <p class="section-subtitle reveal">Professional credentials</p>
+
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-badge mikrotik">🛡️</div>
+          <div class="cert-info">
+            <h4>MTCNA</h4>
+            <p>MikroTik Certified Network Associate — Network Engineering</p>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge huawei">☁️</div>
+          <div class="cert-info">
+            <h4>HCIA — Cloud Service</h4>
+            <p>Huawei Certified ICT Associate — Cloud Service Architecture</p>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge toeic">🌍</div>
+          <div class="cert-info">
+            <h4>TOEIC Score 965</h4>
+            <p>Test of English for International Communication — Near-native fluency</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title reveal">Experience</h2>
+      <p class="section-subtitle reveal">My professional journey</p>
+
+      <div class="timeline">
+        <!-- Experience 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">November 2023 — May 2024</div>
+            <div class="timeline-role">IT Administrator</div>
+            <div class="timeline-company">PT. Weefer Indonesia — Batam, Kepulauan Riau</div>
+            <p class="timeline-desc">
+              Worked at a leading Indonesian company specializing in System Integration and IT Consulting. Managed the company's Huawei Cloud environment and provided hands-on guidance to customers for managing their own Huawei Cloud infrastructure. Delivered technical support and cloud environment optimization.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">September 2022 — August 2023</div>
+            <div class="timeline-role">Admin PPJK</div>
+            <div class="timeline-company">PT. Renindo Jaya Sukses — Batam, Kepulauan Riau</div>
+            <p class="timeline-desc">
+              Handled customs affairs (PPJK) for import/export operations. Managed data entry for export-import documentation, validated Invoices, Packing Lists, Master Lists, Bills of Loading, and Manifests. Processed power of attorney documents within the PPFTZ system from clients to the company.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <p class="section-subtitle reveal">Academic background</p>
+
+      <div class="education-card reveal">
+        <div class="education-header">
+          <div class="education-icon">🎓</div>
+          <div class="education-title">
+            <h3>S1 Information Technology</h3>
+            <p>Universitas Internasional Batam · 2022 — Present</p>
+          </div>
+        </div>
+        <ul class="education-details">
+          <li>Chairman of UKM Japanese Club — Universitas Internasional Batam</li>
+          <li>Member of HMPS Information Technology Student Association</li>
+          <li>Focused on programming, networking, and cloud computing</li>
+        </ul>
+        <div class="gpa-badge">
+          <span class="gpa-label">GPA</span>
+          <span class="gpa-value">3.81 / 4.00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="section-subtitle reveal">Let's connect and build something great</p>
+
+      <div class="contact-grid">
+        <a href="mailto:wilhelmuservando19@gmail.com" class="contact-card reveal" id="contact-email">
+          <span class="contact-icon">📧</span>
+          <h3>Email</h3>
+          <p>wilhelmuservando19@gmail.com</p>
+        </a>
+        <a href="tel:+6281374891867" class="contact-card reveal" id="contact-phone">
+          <span class="contact-icon">📱</span>
+          <h3>Phone</h3>
+          <p>+62 813 7489 1867</p>
+        </a>
+        <a href="https://www.linkedin.com/in/wilhelmus-ervando-walangare-291679275/" target="_blank" rel="noopener" class="contact-card reveal" id="contact-linkedin">
+          <span class="contact-icon">💼</span>
+          <h3>LinkedIn</h3>
+          <p>Wilhelmus Ervando Walangare</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">
+          &copy; 2026 <span class="highlight">Wilhelmus Ervando Walangare</span>. Built with passion.
+        </p>
+        <div class="footer-links">
+          <a href="mailto:wilhelmuservando19@gmail.com" title="Email">📧</a>
+          <a href="https://www.linkedin.com/in/wilhelmus-ervando-walangare-291679275/" target="_blank" rel="noopener" title="LinkedIn">💼</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script src="script.js"></script>
+</body>
+</html>
