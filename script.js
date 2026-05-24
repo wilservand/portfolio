@@ -288,7 +288,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 (function initTilt() {
   if (window.matchMedia('(hover: none)').matches) return;
 
-  const cards = document.querySelectorAll('.skill-card, .cert-card, .contact-card');
+  const cards = document.querySelectorAll('.skill-card, .cert-card, .contact-card, .project-card');
   cards.forEach((card) => {
     card.addEventListener('mousemove', (e) => {
       const rect = card.getBoundingClientRect();
