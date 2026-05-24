@@ -925,8 +925,8 @@ section {
 }
 
 .project-logo {
-  width: 80%;
-  height: auto;
+  max-width: 55%;
+  max-height: 55%;
   object-fit: contain;
 }
 
