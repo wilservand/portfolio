@@ -856,6 +856,29 @@ section {
   line-height: 1.8;
 }
 
+.timeline-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-highlights li {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  padding: 6px 0;
+  padding-left: 24px;
+  position: relative;
+}
+
+.timeline-highlights li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--cyan-primary);
+  font-size: 1rem;
+}
+
 /* =============================================
    PROJECTS SECTION
    ============================================= */
